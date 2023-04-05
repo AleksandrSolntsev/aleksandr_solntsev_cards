@@ -1,0 +1,54 @@
+.achievementsBlock {
+  margin-top: 40px;
+  display: block;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.achievementsBlock h2 {
+  color: #666666;
+  margin: auto;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.achievementsElements {
+  padding-top: 20px;
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.achievementsElementsBody {
+  margin: auto;
+}
+.achievementsElementsBody p {
+  text-align: center;
+  margin-right: 40px;
+}
+
+.sphere {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 100px;
+  vertical-align: middle;
+  font-size: 200%;
+  position: relative;
+  box-shadow: inset -10px -10px 50px #000, 10px 10px 20px black,
+    inset 0px 0px 10px black;
+  display: inline-block;
+  margin-right: 40px;
+  margin-top: 40px;
+}
+.sphere::after {
+  background-color: rgba(255, 255, 255, 0.3);
+  content: "";
+  height: 45%;
+  width: 12%;
+  position: absolute;
+  top: 4%;
+  left: 15%;
+  border-radius: 50%;
+  transform: rotate(40deg);
+}

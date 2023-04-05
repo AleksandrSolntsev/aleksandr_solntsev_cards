@@ -1,0 +1,85 @@
+p {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.ideasBlock {
+  margin-top: 40px;
+  display: block;
+}
+.navigateKeys {
+  display: flex;
+  margin: auto;
+  width: 60%;
+}
+.ideasBlock h2 {
+  color: #666666;
+  margin: auto;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.ideasBlockNavigate {
+  padding-top: 20px;
+  padding-right: 5%;
+  width: 100%;
+  display: flex;
+  margin: auto;
+  overflow: hidden;
+}
+.caruselBlock {
+  margin-left: 40%;
+  width: 100%;
+  display: flex;
+  transition: 0.5s all ease-in-out;
+}
+.idea {
+  margin-right: 60px;
+  padding: 10px;
+  height: fit-content;
+  max-height: 180px;
+  min-width: 120px;
+  max-width: 120px;
+  border: solid #666666 2px;
+  box-shadow: 10px 5px 5px #a736a9;
+  text-align: center;
+  cursor: pointer;
+}
+.idea p {
+  height: 100px;
+}
+p {
+  text-align: center;
+}
+.triangleLeft {
+  margin-top: 10%;
+  width: 0;
+  height: 0;
+  border-width: 30px 61px 30px 0;
+  border-color: transparent #666666 transparent transparent;
+  border-style: solid;
+  filter: drop-shadow(1px 5px 5px #a736a9);
+  cursor: pointer;
+}
+.triangleRight {
+  margin-top: 10%;
+  width: 0;
+  height: 0;
+  border-width: 30px 0 30px 61px;
+  border-color: transparent transparent transparent #666666;
+  border-style: solid;
+  filter: drop-shadow(5px 1px 5px #a736a9);
+  cursor: pointer;
+}
+.storageButtons {
+  margin: auto;
+  width: 40%;
+}
+.storageButtons button {
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;  
+  display: block;
+}

@@ -1,0 +1,60 @@
+.CompletedChallengesBlock {
+  margin-top: 40px;
+  display: block;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.CompletedChallengesBlock h2 {
+  color: #666666;
+  margin: auto;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.CompletedChallengesTable {
+  padding-top: 20px;
+  width: 70%;
+  margin: auto;
+}
+table {
+  width: 100%;
+  border-spacing: 0;
+  border: 1px solid black;
+  counter-reset: trCount;
+  overflow: auto;
+  white-space: nowrap;
+  table-layout: fixed;
+}
+
+.table tr th:first-child:before {
+  position: relative;
+  counter-increment: trCount;
+  content: counter(trCount);
+}
+.tHead th {
+  border-bottom: 1px solid black;
+}
+.tHead td {
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  width: 10px;
+}
+.tBody th {
+  border-right: 1px solid black;
+  
+}
+
+td {
+  margin: 0;
+  padding: 0.5rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+td:hover {
+  background: #6666; /* Цвет фона */
+  white-space: normal;
+}
+.titleTh{
+  width: 50%;
+}

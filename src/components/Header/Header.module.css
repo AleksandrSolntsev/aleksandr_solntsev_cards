@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  width: 70%;
+  height: 70 px;
+  background-color: aquamarine;
+  border-radius: 10px;
+  margin: auto;
+}
+.header img {
+  width: 50px;
+  height: 50px;
+  margin-top: 10px;
+}
+.header h1 {
+  color: #666666;
+  margin: auto;
+  margin-bottom: 10px;
+}
+.logoImg {
+  margin-left: 10px;
+}

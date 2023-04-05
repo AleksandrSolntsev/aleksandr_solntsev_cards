@@ -1,0 +1,37 @@
+.ideasBlock {
+  margin-top: 40px;
+  display: block;
+}
+
+.ideasBlock h2 {
+  color: #666666;
+  margin: auto;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.caruselBlock {
+  padding-top: 20px;
+  width: 70%;
+  display: flex;
+  margin: auto;
+}
+
+.idea {
+  margin: auto;
+  padding: 10px;
+  height: 180px;
+  width: 120px;
+  border: solid #666666 2px;
+  box-shadow: 10px 5px 5px #a736a9;
+  text-align: center;
+  cursor: pointer;
+}
+.idea p {
+  height: 100px;
+  cursor: pointer;
+}
+
+.cardFooterr {
+  height: 50px;
+}
