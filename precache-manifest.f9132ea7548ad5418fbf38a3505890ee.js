@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "640115b16efb04293118",
+    "revision": "6043183f1aa30232162b",
     "url": "/aleksandr_solntsev_cards/static/css/main.9cc78fd6.chunk.css"
   },
   {
-    "revision": "640115b16efb04293118",
-    "url": "/aleksandr_solntsev_cards/static/js/main.640115b1.chunk.js"
+    "revision": "6043183f1aa30232162b",
+    "url": "/aleksandr_solntsev_cards/static/js/main.6043183f.chunk.js"
   },
   {
     "revision": "990ec6b76a32fa790a2c",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/aleksandr_solntsev_cards/static/media/pngwing.com.3990442b.png"
   },
   {
-    "revision": "4b07f8240233f8429f095532a78f137c",
+    "revision": "97882b1c3f8cd21a17e6051b985a4e93",
     "url": "/aleksandr_solntsev_cards/index.html"
   }
 ];

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/aleksandr_solntsev_cards/precache-manifest.2233113c5e1aea4b0028b8a90aaf23c9.js"
+  "/aleksandr_solntsev_cards/precache-manifest.f9132ea7548ad5418fbf38a3505890ee.js"
 );
 
 workbox.clientsClaim();
